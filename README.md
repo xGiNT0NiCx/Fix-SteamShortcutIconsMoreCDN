@@ -22,7 +22,7 @@ Steam shortcuts sometimes point to `.ico` files that no longer exist, leaving ga
 
 ## Quick start
 
-1. Download [`Fix-SteamShortcutIcons.ps1`](./Fix-SteamShortcutIcons.ps1).
+1. Download [`Fix-SteamShortcutIcons-Plus.ps1`](./Fix-SteamShortcutIcons-Plus.ps1).
 2. Right-click the file and choose **Run with PowerShell**.
 3. Review the repair plan.
 4. Type `Y` to fix missing icons.
@@ -30,7 +30,7 @@ Steam shortcuts sometimes point to `.ico` files that no longer exist, leaving ga
 Or run it from PowerShell:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\Fix-SteamShortcutIcons.ps1
+powershell -ExecutionPolicy Bypass -File .\Fix-SteamShortcutIcons-Plus.ps1
 ```
 
 ## What it changes
@@ -56,7 +56,7 @@ If you are unsure, open the script in a text editor first. It is small and reada
 Run:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\Fix-SteamShortcutIcons.ps1
+powershell -ExecutionPolicy Bypass -File .\Fix-SteamShortcutIcons-Plus.ps1
 ```
 
 ### Some icons still look broken
